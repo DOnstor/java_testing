@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68f709b6-8462-4c9f-a6e6-131e561a1e90" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Addressbook/src/test/java/ru/lesson2/UntitledTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Addressbook/src/test/java/ru/lesson2/UntitledTestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Addressbook/build/classes/java/test/com/example/tests/UntitledTestCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Addressbook/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Addressbook/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Test.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Test.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/addressbook.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/addressbook.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,16 +55,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/THP/Documents/GitHub/java_testing/Addressbook/build.gradle",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.16113281",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/THP/Documents/GitHub/java_testing/Addressbook/build.gradle&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.16113281&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
@@ -113,7 +115,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="UntitledTestCase" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestAB" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/../Addressbook" />
@@ -126,7 +128,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.example.tests.UntitledTestCase&quot;" />
+            <option value="&quot;ru.lesson2.TestAB&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -136,7 +138,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="UntitledTestCase.testUntitledTestCase" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UntitledTestCase (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/../Addressbook" />
@@ -149,7 +151,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.example.tests.UntitledTestCase.testUntitledTestCase&quot;" />
+            <option value="&quot;ru.lesson2.UntitledTestCase&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -161,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Gradle.PointTest" />
+        <item itemvalue="Gradle.TestAB" />
+        <item itemvalue="Gradle.UntitledTestCase (1)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.org.lesson1.Main" />
-        <item itemvalue="Gradle.UntitledTestCase" />
-        <item itemvalue="Gradle.UntitledTestCase.testUntitledTestCase" />
       </list>
     </recent_temporary>
   </component>

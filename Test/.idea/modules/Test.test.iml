@@ -58,4 +58,5 @@
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.webjars:jquery:3.6.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.junit.platform:junit-platform-engine:1.8.1" level="project" />
   </component>
+  <component name="TestModuleProperties" production-module="Test.main" />
 </module>
