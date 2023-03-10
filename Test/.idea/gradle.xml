@@ -5,23 +5,21 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/../Adressbook" />
-        <option name="gradleJvm" value="corretto-18" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../Addressbook" />
+        <option name="gradleJvm" value="azul-18" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/../Adressbook" />
+            <option value="$PROJECT_DIR$/../Addressbook" />
           </set>
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="delegatedBuild" value="true" />
-        <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Test" />
-        <option name="gradleJvm" value="corretto-18" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="azul-18" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/Test" />
+            <option value="$PROJECT_DIR$" />
           </set>
         </option>
       </GradleProjectSettings>
