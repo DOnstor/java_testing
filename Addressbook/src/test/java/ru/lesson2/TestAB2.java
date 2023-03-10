@@ -1,28 +1,28 @@
 package ru.lesson2;
 
-import java.util.regex.Pattern;
-import java.util.concurrent.TimeUnit;
-import org.testng.annotations.*;
-import static org.testng.Assert.*;
-import org.openqa.selenium.*;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 
-public class UntitledTestCase {
+import java.util.concurrent.TimeUnit;
+
+public class TestAB2 {
   private WebDriver driver;
-  private String baseUrl;
   private boolean acceptNextAlert = true;
   private StringBuffer verificationErrors = new StringBuffer();
 
   @BeforeClass(alwaysRun = true)
   public void setUp() throws Exception {
+    System.setProperty("webdriver.fire.driver","C:\\xampp\\WebDriver\\geckodriver.exe");
     driver = new FirefoxDriver();
-    baseUrl = "https://www.google.com/";
+    String baseUrl = "https://www.google.com/";
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
   }
 
   @Test
-  public void testUntitledTestCase() throws Exception {
+  public void testAB() throws Exception {
     driver.get("http://localhost/addressbook/");
     driver.findElement(By.name("user")).click();
     driver.findElement(By.name("user")).clear();
@@ -34,7 +34,7 @@ public class UntitledTestCase {
     driver.findElement(By.name("new")).click();
     driver.findElement(By.name("group_name")).click();
     driver.findElement(By.name("group_name")).clear();
-    driver.findElement(By.name("group_name")).sendKeys("Test1");
+    driver.findElement(By.name("group_name")).sendKeys("Test3");
     driver.findElement(By.name("group_header")).clear();
     driver.findElement(By.name("group_header")).sendKeys("test2");
     driver.findElement(By.name("group_footer")).click();
@@ -50,7 +50,7 @@ public class UntitledTestCase {
     driver.findElement(By.name("selected[]")).click();
   }
 
-  @AfterClass(alwaysRun = true)
+  /*@AfterClass(alwaysRun = true)
   public void tearDown() throws Exception {
     driver.quit();
     String verificationErrorString = verificationErrors.toString();
@@ -90,5 +90,5 @@ public class UntitledTestCase {
     } finally {
       acceptNextAlert = true;
     }
-  }
+  }*/
 }
