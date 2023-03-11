@@ -1,7 +1,10 @@
 package ru.lesson2.appmanaager;
 
-import org.openqa.selenium.*;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.Browser;
 
 import java.util.concurrent.TimeUnit;
 
@@ -14,9 +17,21 @@ public class AplicationManager {
     private final boolean acceptNextAlert = true;
     private StringBuffer verificationErrors = new StringBuffer();
     private AddHelper addHelper;
+    private Browser browser;
+
+    public AplicationManager(Browser browser) {
+
+        this.browser = browser;
+    }
 
     public void init() {
-        driver = new FirefoxDriver();
+        if (browser == Browser.FIREFOX) {
+            driver = new FirefoxDriver();
+        } else if (browser == Browser.CHROME) {
+            driver = new ChromeDriver();
+        } else if (browser == Browser.EDGE) {
+            driver = new EdgeDriver();
+        }
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.get("http://localhost/addressbook/");
         groupHelper = new GroupHelper(driver);
