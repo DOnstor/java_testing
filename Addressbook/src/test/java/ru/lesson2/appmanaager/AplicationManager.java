@@ -8,17 +8,19 @@ import java.util.concurrent.TimeUnit;
 import static org.testng.Assert.fail;
 
 public class AplicationManager {
-    WebDriver driver;
+    public WebDriver driver;
     private NavigationHelper navigationHelper;
     private GroupHelper groupHelper;
     private final boolean acceptNextAlert = true;
     private StringBuffer verificationErrors = new StringBuffer();
+    private AddHelper addHelper;
 
     public void init() {
         driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.get("http://localhost/addressbook/");
         groupHelper = new GroupHelper(driver);
+        addHelper = new AddHelper(driver);
         navigationHelper = new NavigationHelper(driver);
         SessionHelper sessionHelper = new SessionHelper(driver);
         sessionHelper.login("admin", "secret");
@@ -39,5 +41,9 @@ public class AplicationManager {
 
     public NavigationHelper getNavigationHelper() {
         return navigationHelper;
+    }
+
+    public AddHelper getAddHelper() {
+        return addHelper;
     }
 }
