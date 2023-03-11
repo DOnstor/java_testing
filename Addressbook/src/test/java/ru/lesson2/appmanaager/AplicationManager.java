@@ -6,7 +6,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.Browser;
 
-import java.util.concurrent.TimeUnit;
+import java.time.Duration;
 
 import static org.testng.Assert.fail;
 
@@ -14,10 +14,9 @@ public class AplicationManager {
     public WebDriver driver;
     private NavigationHelper navigationHelper;
     private GroupHelper groupHelper;
-    private final boolean acceptNextAlert = true;
-    private StringBuffer verificationErrors = new StringBuffer();
+    private final StringBuffer verificationErrors = new StringBuffer();
     private AddHelper addHelper;
-    private Browser browser;
+    private final Browser browser;
 
     public AplicationManager(Browser browser) {
 
@@ -32,7 +31,7 @@ public class AplicationManager {
         } else if (browser == Browser.EDGE) {
             driver = new EdgeDriver();
         }
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        driver.manage().timeouts().setScriptTimeout(Duration.ofSeconds(30));
         driver.get("http://localhost/addressbook/");
         groupHelper = new GroupHelper(driver);
         addHelper = new AddHelper(driver);
