@@ -20,8 +20,7 @@ public class GroupHelper extends HelperBase {
 
     public void fillGroupForm(GroupData groupData) {
         type(By.name("group_name"), groupData.name());
-        driver.findElement(By.name("group_header")).clear();
-        driver.findElement(By.name("group_header")).sendKeys(groupData.header());
+        type(By.name("group_header"), groupData.header());
         type(By.name("group_footer"), groupData.footer());
         click(By.xpath("//form[@action='/addressbook/group.php']"));
     }
@@ -46,5 +45,17 @@ public class GroupHelper extends HelperBase {
 
     public void submitGroupModif() {
         click(By.name("update"));
+    }
+
+    public void createGruop(GroupData group) {
+        initGroupCreating();
+        fillGroupForm(group);
+        submitGroupCreating();
+        returnGroupPage();
+
+    }
+
+    public boolean isThereAGroupe() {
+        return isElementPresent(By.name("selected[]"));
     }
 }
