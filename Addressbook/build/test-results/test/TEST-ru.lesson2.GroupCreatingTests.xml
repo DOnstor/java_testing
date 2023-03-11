@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.lesson2.GroupCreatingTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-11T08:19:45" hostname="DPC" time="1.633">
+  <properties/>
+  <testcase name="testAB" classname="ru.lesson2.GroupCreatingTests" time="1.633"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[log4j:WARN No appenders could be found for logger (io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+1678522782620	geckodriver	INFO	Listening on 127.0.0.1:9110
+1678522782870	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "24590" "--remote ... p://localhost:24590/,http://[::1]:24590/" "-no-remote" "-profile" "C:\\Users\\D\\AppData\\Local\\Temp\\rust_mozprofilePrrd3U"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678522783171	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678522783176	Marionette	INFO	Listening on port 55926
+Read port: 55926
+WebDriver BiDi listening on ws://127.0.0.1:24590
+1678522783288	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\D\\AppData\\Local\\Temp\\rust_mozprofilePrrd3U\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:24590/devtools/browser/a1848232-def1-4a2d-95be-db6f49b08774
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+1678522785527	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+]]></system-err>
+</testsuite>
