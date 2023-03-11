@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.lesson2.tests.GroupCreatingTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-11T21:43:22" hostname="DPC" time="0.63">
+<testsuite name="ru.lesson2.tests.GroupModifTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-11T21:53:04" hostname="DPC" time="15.263">
   <properties/>
-  <testcase name="testAB" classname="ru.lesson2.tests.GroupCreatingTests" time="0.63"/>
+  <testcase name="tetsGroupModif" classname="ru.lesson2.tests.GroupModifTests" time="15.263"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[log4j:WARN No appenders could be found for logger (io.netty.util.internal.logging.InternalLoggerFactory).
 log4j:WARN Please initialize the log4j system properly.
 log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
-Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 13346
+Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 30377
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1678571002.339][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-мар. 12, 2023 12:43:22 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1678571583.416][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+мар. 12, 2023 12:53:03 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 109
 ]]></system-err>
 </testsuite>
