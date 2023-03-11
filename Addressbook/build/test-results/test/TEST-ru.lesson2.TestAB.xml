@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.lesson2.TestAB" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-11T07:27:06" hostname="DPC" time="2.306">
+<testsuite name="ru.lesson2.TestAB" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-11T07:39:12" hostname="DPC" time="1.863">
   <properties/>
-  <testcase name="testAB" classname="ru.lesson2.TestAB" time="2.306"/>
+  <testcase name="testAB" classname="ru.lesson2.TestAB" time="1.863"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[log4j:WARN No appenders could be found for logger (io.netty.util.internal.logging.InternalLoggerFactory).
 log4j:WARN Please initialize the log4j system properly.
 log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
-1678519623303	geckodriver	INFO	Listening on 127.0.0.1:39406
-1678519623541	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "17396" "--remote ... p://localhost:17396/,http://[::1]:17396/" "-no-remote" "-profile" "C:\\Users\\D\\AppData\\Local\\Temp\\rust_mozprofileBLrEBu"
+1678520349568	geckodriver	INFO	Listening on 127.0.0.1:41530
+1678520349828	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "26226" "--remote ... p://localhost:26226/,http://[::1]:26226/" "-no-remote" "-profile" "C:\\Users\\D\\AppData\\Local\\Temp\\rust_mozprofiley3MN5k"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1678519623841	Marionette	INFO	Marionette enabled
+1678520350154	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1678519623846	Marionette	INFO	Listening on port 64601
-Read port: 64601
-WebDriver BiDi listening on ws://127.0.0.1:17396
-1678519623954	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\D\\AppData\\Local\\Temp\\rust_mozprofileBLrEBu\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://127.0.0.1:17396/devtools/browser/dbdc08f7-0f06-4f5b-a0a4-06108ab6296b
+1678520350159	Marionette	INFO	Listening on port 65147
+Read port: 65147
+WebDriver BiDi listening on ws://127.0.0.1:26226
+1678520350270	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\D\\AppData\\Local\\Temp\\rust_mozprofiley3MN5k\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:26226/devtools/browser/55f21019-b9b7-4cf8-a617-16af80dcf37c
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
-1678519626303	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1678520353066	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
 ]]></system-err>
 </testsuite>
