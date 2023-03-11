@@ -9,10 +9,9 @@ import static org.testng.Assert.fail;
 
 public class AplicationManager {
     WebDriver driver;
-    private SessionHelper sessionHelper;
     private NavigationHelper navigationHelper;
     private GroupHelper groupHelper;
-    private boolean acceptNextAlert = true;
+    private final boolean acceptNextAlert = true;
     private StringBuffer verificationErrors = new StringBuffer();
 
     public void init() {
@@ -21,7 +20,7 @@ public class AplicationManager {
         driver.get("http://localhost/addressbook/");
         groupHelper = new GroupHelper(driver);
         navigationHelper = new NavigationHelper(driver);
-        sessionHelper = new SessionHelper(driver);
+        SessionHelper sessionHelper = new SessionHelper(driver);
         sessionHelper.login("admin", "secret");
     }
 
