@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.lesson3.EquationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-11T12:29:01" hostname="DPC" time="0.006">
+  <properties/>
+  <testcase name="test0" classname="ru.lesson3.EquationTests" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
