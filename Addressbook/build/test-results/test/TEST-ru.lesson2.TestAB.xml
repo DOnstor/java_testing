@@ -1,62 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.lesson2.TestAB" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-10T14:08:55" hostname="THP-HP" time="8.593">
+<testsuite name="ru.lesson2.TestAB" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-11T07:27:06" hostname="DPC" time="2.306">
   <properties/>
-  <testcase name="testAB" classname="ru.lesson2.TestAB" time="8.593"/>
+  <testcase name="testAB" classname="ru.lesson2.TestAB" time="2.306"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[log4j:WARN No appenders could be found for logger (io.netty.util.internal.logging.InternalLoggerFactory).
 log4j:WARN Please initialize the log4j system properly.
 log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
-1678457324370	geckodriver	INFO	Listening on 127.0.0.1:46069
-1678457324660	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "4035" "--remote- ... p://localhost:4035/,http://[::1]:4035/" "-no-remote" "-profile" "C:\\Users\\THP\\AppData\\Local\\Temp\\rust_mozprofileJPAjHM"
-1678457326681	Marionette	INFO	Marionette enabled
-1678457326687	Marionette	INFO	Listening on port 60357
-WebDriver BiDi listening on ws://localhost:4035
-Read port: 60357
-1678457327517	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\THP\\AppData\\Local\\Temp\\rust_mozprofileJPAjHM\\search.json.mozlz4", (void 0)))
-console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
-console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
-DevTools listening on ws://localhost:4035/devtools/browser/edb3e89b-0332-451d-8c68-d7d9ef9eaf80
-1678457337332	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
-TimedPromise@chrome://remote/content/marionette/sync.js:219:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost"
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost"
-JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost"
-JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost"
-JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-1678457339032	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
-TimedPromise@chrome://remote/content/marionette/sync.js:219:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
-1678457340268	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
-TimedPromise@chrome://remote/content/marionette/sync.js:219:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
-1678457341487	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
-TimedPromise@chrome://remote/content/marionette/sync.js:219:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost"
-JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost"
-JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-1678457343180	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
-TimedPromise@chrome://remote/content/marionette/sync.js:219:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
-1678457344106	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
-TimedPromise@chrome://remote/content/marionette/sync.js:219:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1678519623303	geckodriver	INFO	Listening on 127.0.0.1:39406
+1678519623541	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "17396" "--remote ... p://localhost:17396/,http://[::1]:17396/" "-no-remote" "-profile" "C:\\Users\\D\\AppData\\Local\\Temp\\rust_mozprofileBLrEBu"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678519623841	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678519623846	Marionette	INFO	Listening on port 64601
+Read port: 64601
+WebDriver BiDi listening on ws://127.0.0.1:17396
+1678519623954	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\D\\AppData\\Local\\Temp\\rust_mozprofileBLrEBu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:17396/devtools/browser/dbdc08f7-0f06-4f5b-a0a4-06108ab6296b
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost."
+1678519626303	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
 ]]></system-err>
 </testsuite>

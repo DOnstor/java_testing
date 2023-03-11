@@ -9,7 +9,7 @@ repositories {
     mavenCentral()
 }
 compileJava {
-    options.compilerArgs << "-Xlint:deprecation"
+    //options.compilerArgs << "-Xlint:deprecation"
 }
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
