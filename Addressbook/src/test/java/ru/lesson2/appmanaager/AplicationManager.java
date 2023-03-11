@@ -6,8 +6,6 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.Browser;
 
-import java.time.Duration;
-
 import static org.testng.Assert.fail;
 
 public class AplicationManager {
@@ -31,7 +29,7 @@ public class AplicationManager {
         } else if (browser == Browser.EDGE) {
             driver = new EdgeDriver();
         }
-        driver.manage().timeouts().setScriptTimeout(Duration.ofSeconds(30));
+        //driver.manage().timeouts().setScriptTimeout(Duration.ofSeconds(30));
         driver.get("http://localhost/addressbook/");
         groupHelper = new GroupHelper(driver);
         addHelper = new AddHelper(driver);
