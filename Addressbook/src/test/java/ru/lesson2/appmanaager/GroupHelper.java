@@ -34,7 +34,8 @@ public class GroupHelper extends HelperBase {
         click(By.name("delete"));
     }
 
-    public void selectGroup() {
+    public void selectGroup(int index) {
+        driver.findElements(By.name("selected[]")).get(index);
         click(By.name("selected[]"));
     }
 

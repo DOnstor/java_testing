@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.lesson2.tests.GroupModifTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-12T12:33:58" hostname="DPC" time="0.75">
+<testsuite name="ru.lesson2.tests.GroupModifTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-12T12:39:00" hostname="DPC" time="0.96">
   <properties/>
-  <testcase name="tetsGroupModif" classname="ru.lesson2.tests.GroupModifTests" time="0.75"/>
+  <testcase name="tetsGroupModif" classname="ru.lesson2.tests.GroupModifTests" time="0.96"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[log4j:WARN No appenders could be found for logger (io.netty.util.internal.logging.InternalLoggerFactory).
 log4j:WARN Please initialize the log4j system properly.
 log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
-Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 33167
+Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 20798
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1678624438.035][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-мар. 12, 2023 3:33:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1678624739.824][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+мар. 12, 2023 3:38:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 109
 ]]></system-err>
 </testsuite>
